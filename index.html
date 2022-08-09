@@ -494,8 +494,8 @@
                         <use href="./images/icons.svg#close-modal"></use>
                     </svg>
                 </button>
-                <p class="modal-caption">Залиште свої дані, ми вам передзвонимо</p>
                 <form class="modal-form">
+                    <p class="modal-caption">Залиште свої дані, ми вам передзвонимо</p>
                     <label class="modal-form-label" for="user_name">Ім'я</label>
                     <div class="modal-form-input-wrapper">
                         <input
@@ -535,8 +535,9 @@
                             <use href="./images/icons.svg#icon-email-modal"></use>
                         </svg>
                     </div>
-                    <label class="modal-form-label">Коментар</label>
+                    <label for="user_message" class="modal-form-label"> Коментар</label>
                     <textarea
+                        id="user_message"
                         name="user_message"
                         class="modal-form-message"
                         placeholder="Введіть текст"
